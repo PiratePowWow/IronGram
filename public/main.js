@@ -6,8 +6,8 @@ function getPhotos(photosData){
     }
 }
 
-function getUser(userData){
-    if(userData.length == 0){
+function getUser(response){
+    if(response.length == 0){
         $("#login").show();
     }else{
         $("#upload").show();
